@@ -28,7 +28,7 @@ const routes = [
     name: 'Sistema',
     component: Sistema,
     meta: {
-      auth: 'required',
+      auth: 'redirect',
     },
     children: [
       {
@@ -63,7 +63,7 @@ const routes = [
         path: '/respostas',
         component: Respostas,
         meta: {
-          auth: 'required',
+          auth: 'redirect',
         },
       },
       {
@@ -77,7 +77,7 @@ const routes = [
         path: '/questionario',
         component: Questionario,
         meta: {
-          auth: 'required',
+          auth: 'redirect',
         },
       },
     ]

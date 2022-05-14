@@ -23,14 +23,12 @@
 						</v-row>
 					</div>
 					<hr>
-					<div class="pa-5">
-						<v-row class="pa-5">
+					<div class="d-flex justify-start pa-5">
 							<v-col cols="12" sm="6" md='4' lg='3'>
 								<v-btn style="width: 100%" color="primary" type="submit">
 									Enviar
 								</v-btn>
 							</v-col>
-						</v-row>
 					</div>
 				</v-card>
 			</v-form>

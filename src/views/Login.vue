@@ -10,7 +10,7 @@
 																:error-messages="errors.username"/>
 									<v-text-field label="Senha" type="password" v-model="password" :error="!!errors.password"
 																:error-messages="errors.password"/>
-									<v-col cols="12" sm="6">
+									<v-col cols="12">
 									<v-btn class="mt-4" color="primary" type="submit" :loading="loginLoading" width="100%">
 										Entrar
 									</v-btn>
