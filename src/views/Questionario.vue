@@ -24,7 +24,7 @@
 					</div>
 					<hr>
 					<div class="d-flex justify-start pa-5">
-							<v-col cols="12" sm="6" md='4' lg='3'>
+							<v-col cols="12" sm="6" md='6' lg='3'>
 								<v-btn style="width: 100%" color="primary" type="submit">
 									Enviar
 								</v-btn>

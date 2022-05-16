@@ -28,7 +28,7 @@ const routes = [
     name: 'Sistema',
     component: Sistema,
     meta: {
-      auth: 'redirect',
+      auth: 'required',
     },
     children: [
       {
@@ -42,7 +42,7 @@ const routes = [
         path: '/grupos',
         component: Grupos,
         meta: {
-          auth: 'redirect',
+          auth: 'required',
         },
       },
       {
